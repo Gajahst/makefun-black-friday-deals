@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowtide · checked Black Friday deals</title>
+<meta name="description" content="Black Friday and Cyber Monday 2026 deals, each price read at the store or a named deals source, with the time it was checked and an honest verdict.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./main.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <div>
+      <h1 class="brand-name">Lowtide</h1>
+      <p class="brand-tag">Black Friday 2026 deals, every price checked and timed</p>
+    </div>
+  </div>
+  <p class="stamp" id="stamp"></p>
+</header>
+
+<section class="controls" aria-label="Search and filters">
+  <label class="search">
+    <span class="sr">Search deals</span>
+    <input id="q" type="search" placeholder="Search product, brand or store" autocomplete="off">
+  </label>
+  <div class="row">
+    <label class="pick"><span>Category</span><select id="cat"></select></label>
+    <label class="pick"><span>Store</span><select id="store"></select></label>
+    <label class="pick"><span>Min. discount</span><select id="off"></select></label>
+    <label class="pick"><span>Sort</span><select id="sort"></select></label>
+  </div>
+  <div class="chips" id="verdicts" role="group" aria-label="Verdict filter"></div>
+</section>
+
+<main>
+  <p class="summary" id="summary" aria-live="polite"></p>
+  <ol class="grid" id="grid"></ol>
+  <section class="detail" id="detail" hidden></section>
+</main>
+
+<footer class="foot">
+  <p>How we check: each price was read on the store's own product page, or in a dated deals roundup that names the store, at the time shown on the card. Prices move fast on Black Friday; confirm at checkout.</p>
+  <p>Verdicts: <b>Record low</b> means the cited source calls it the lowest price it has tracked. <b>Strong</b> is 35% or more below the listed regular price. <b>Fair</b> is 20 to 34%. <b>Routine</b> is under 20%. A <b>list price</b> note means the "was" figure is a comparable or list value, not a proven selling price.</p>
+</footer>
+</body>
+</html>
