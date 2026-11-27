@@ -1,5 +1,9 @@
 # Lowtide
 
+[![make.fun · black-friday-deal-finder-01](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/Gajahst/makefun-black-friday-deals/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/Gajahst/makefun-black-friday-deals/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01?utm_source=github&utm_medium=readme&utm_campaign=black-friday-deal-finder-01)
+
 A small, fast Black Friday 2026 deal finder. Every deal shows its store, sale price, regular price, discount, a link to the product at the store, when its price was checked and where the price was read (the store's own page or a dated deals roundup that names the store). Each deal also gets a plain verdict: Record low, Strong, Fair or Routine.
 
 - Search by product, brand or store; filter by category, store, minimum discount and verdict; sort by best deal, % off, dollars saved, lowest price or latest check.
